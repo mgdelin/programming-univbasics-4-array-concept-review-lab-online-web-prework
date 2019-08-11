@@ -1,10 +1,12 @@
 def find_element_index(array, value_to_find)
+  counter=0
 array.length.times
-if array[] = "#{value_to_find}"
+if array[counter] = "#{value_to_find}"
   return array[index]
 else
   return NIL 
 end
+counter += 1
 end
 
 def find_max_value(array)
