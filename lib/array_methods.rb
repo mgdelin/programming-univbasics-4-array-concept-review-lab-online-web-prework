@@ -14,7 +14,7 @@ end
 
 
 def find_max_value(array)
-  array.max_by do
+  array.max_by do |element|
     return array[element]
 end
 
