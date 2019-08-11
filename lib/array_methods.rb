@@ -4,8 +4,9 @@ array.length.times
 if array[counter] = "#{value_to_find}"
   return counter
 else
+  
   return NIL 
-  counter += 1
+  
 end
 
 end
