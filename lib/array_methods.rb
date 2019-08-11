@@ -1,11 +1,12 @@
 def find_element_index(array, value_to_find)
-  
-  array.length.times |counter|
+  counter = 0
+  array.length.times 
     if array[counter]= "#{value_to_find}"
       return counter
     else 
       return NIL
   end
+  counter += 1
 end
 
 
