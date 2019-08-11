@@ -1,11 +1,12 @@
 def find_element_index(array, value_to_find)
   counter = 0
-  array.length.times  
+  array.length.times 
+  counter += 1
     if array[counter] = "#{value_to_find}"
-      return array[counter]
+      return 
     else 
       return NIL
-      counter += 1
+      
     end
   
   
