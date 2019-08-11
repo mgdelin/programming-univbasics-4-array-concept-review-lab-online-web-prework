@@ -1,8 +1,8 @@
 def find_element_index(array, value_to_find)
   
-  array.length.times |index|
-    if index = "#{value_to_find}"
-      return index
+  array.length.times |counter|
+    if array[counter]= "#{value_to_find}"
+      return counter
     else 
       return NIL
   end
