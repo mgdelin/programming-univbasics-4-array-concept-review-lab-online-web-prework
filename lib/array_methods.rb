@@ -1,8 +1,8 @@
 def find_element_index(array, value_to_find)
   counter = 0
   array.length.times 
-    if array[counter] = "#{value_to_find}"
-    return counter
+    until array[counter] = "#{value_to_find}"
+    return NIL
     counter += 1
     end
     
