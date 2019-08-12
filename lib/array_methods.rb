@@ -3,9 +3,9 @@ def find_element_index(array, value_to_find)
   array.length.times 
   counter += 1
     if array[counter] = "#{value_to_find}"
-      return 
+      return counter
     else 
-      return 0
+      NIL
       end
   end
 
