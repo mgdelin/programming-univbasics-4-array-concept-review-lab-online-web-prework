@@ -2,7 +2,9 @@ def find_element_index(array, value_to_find)
   counter = 0
   array.length.times 
     until array[counter] = "#{value_to_find}"
-    return NIL
+    puts NIL
+    break if array[counter] = "#{value_to_find}"
+    return counter
     counter += 1
     end
     
